@@ -1,0 +1,39 @@
+#mine{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+}
+#mine header{
+    width:100%;
+    height:.84rem;
+    background:#fff;
+    text-align:center;
+    line-height:.84rem;
+    padding:0 .2rem;
+    font-size:.25rem;
+    border-bottom:2px solid #ccc;
+}
+#mine header span{
+    float:left;
+    
+}
+#mine header span .icon{
+    font-size:.28rem;
+}
+#mine dl{
+    width:100%;
+    text-align:center;
+}
+#mine dl dt{
+    width:80%;
+    margin:.2rem auto;
+    
+}
+#mine dl dt img{
+    width:100%;
+    height:auto;
+}
+#mine dl dd{
+    font-size:.35rem;
+}

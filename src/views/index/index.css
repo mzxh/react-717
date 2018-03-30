@@ -1,0 +1,35 @@
+#index{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;  
+    background:#eee;
+}
+header{
+    height:.84rem;
+}
+#index .content{
+    flex:1;
+    overflow-y:auto;
+}
+footer .nav{
+    height:0.96rem;
+    display:flex;
+    text-align:center;
+    background:#fff;
+    align-items: center;
+    border-top:1px solid #ccc;
+}
+footer .nav li{
+    flex:1;
+}
+footer .nav li .active{
+    color:#fc4141;
+}
+footer .nav span{
+    display:block;
+    font-size:.26rem;
+}
+footer .nav  .iconfont{
+    font-size:.4rem;
+}

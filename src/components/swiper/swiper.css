@@ -1,0 +1,23 @@
+#swiper_wrap{
+	position: relative;
+}
+#swiper_wrap .swiper-wrapper{
+	width: 100%;
+	height: 100%;
+}
+#swiper_wrap .swiper-wrapper .swiper-slide{
+	width: 100%;
+	height: 100%;
+}
+#swiper_wrap .swiper-wrapper .swiper-slide img{
+	width: 100%;
+    height: 100%;
+    display:block;
+}
+#swiper_wrap .swiper-wrapper .swiper-pagination{
+	position: absolute;
+	bottom: 10px;
+}
+#swiper_wrap .swiper-pagination-bullet-active{
+	background-color: red;
+}

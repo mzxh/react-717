@@ -1,0 +1,44 @@
+#setting{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+}
+#setting header{
+    width:100%;
+    height:.84rem;
+    line-height:.84rem;
+    text-align:center;
+    padding:0 .2rem;
+    border-bottom:2px solid #eee;
+    font-size:.35rem;
+}
+#setting header>span{
+    float:left;
+    font-size:.2rem;
+}
+#setting section{
+    flex:1;
+    background:#eee;
+}
+#setting section p{
+    height:.8rem;
+    line-height:.8rem;
+    padding:0 .2rem;
+    font-size:.25rem;
+    background:#fff;
+ }
+#setting section p span{
+    float:right;
+}
+#setting section .lOut{
+    width:70%;
+    height:.6rem;
+    background:#fc4141;
+    text-align:center;
+    line-height:.6rem;
+    color:#fff;
+    margin:1.2rem 15%;
+    border:0;
+    border-radius: .25rem;
+}

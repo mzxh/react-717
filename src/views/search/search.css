@@ -1,0 +1,81 @@
+#sear{
+    display:flex;
+    flex-direction: column;
+}
+#sear>header{
+    width:100%;
+    height:.84rem;
+    line-height:.84rem;
+    background:#fff; 
+    padding:0 .25rem;
+    border-bottom:1px solid #ccc;
+
+}
+header input{
+    width:80%;
+    height:.58rem;
+    background:#eee;
+    border-radius: .12rem;
+    border:0;
+    padding-left:8%;
+
+}
+header button{
+    border:0;
+    float:right;
+    width:20%;
+    height:.58rem;
+    font-size:.25rem;
+    margin-top:.13rem;
+    background:#fff;
+    text-align:center;
+}
+section{
+    flex:1;
+    background:#fff;
+}
+#sear p{
+width:100%;
+height:.8rem;
+line-height:.8rem;
+padding:0 .3rem;
+font-size:.25rem;
+}
+#sear p span{
+  font-size:.2rem;  
+}
+#sear>section{
+    flex:1;
+    background:#fff;
+}
+.sc{
+    float:right;
+}
+.recent-sear{
+    height:3rem;
+}
+.recent-sear>ul{
+    width:100%;
+    height:auto;
+    background:pink;
+}
+.recent-sear>ul li{
+    width:25%;
+    float:left;
+    line-height:.35rem;
+    text-align:center;
+    margin:.1rem .1rem;
+  
+    border-radius:.12rem;
+    border:1px solid #ccc;
+}
+.common-sear>ol li{
+    width:25%;
+    float:left;
+    line-height:.35rem;
+    text-align:center;
+    margin:.2rem;
+    box-sizing: border-box;
+    border-radius: .12rem;
+    border:1px solid #ccc;
+}
